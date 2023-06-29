@@ -1,0 +1,12 @@
+#form{
+   width: 900px;
+    border: solid 1px;
+    padding: 10px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+h1
+{
+   text-align: center;
+}

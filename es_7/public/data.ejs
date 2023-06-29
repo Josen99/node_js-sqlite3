@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-family:Ariral,sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th,td{
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    th{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <h1>Dati inseriti</h1>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Età</th>
+            <th>Città</th>
+        </tr>
+        <% rows.forEach(row=> { %>
+        <tr>
+            <td><%=row.name %></td>
+            <td><%=row.age></td>
+            <td><%=row.city></td>
+        </tr>   
+        <%});%>
+    </table>
+</body>
+</html>

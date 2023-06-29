@@ -1,0 +1,14 @@
+{
+  "name": "sqlite3",
+  "version": "1.0.0",
+  "description": "bo robe a caso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jsn",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
