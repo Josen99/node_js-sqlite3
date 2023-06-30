@@ -46,7 +46,7 @@ app.post('/login', (req, res) => {
     const { email, password } = req.body;
     const stmt = db.prepare('SELECT COUNT(*) AS count FROM mytable WHERE email = ? AND password = ?');
     stmt.get(email, password, (err, row) => {
-        if (err) {s
+        if (err) {
             res.status(500).send('Errore nel login');
         } else {
             if (row.count > 0) {
